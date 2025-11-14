@@ -92,6 +92,16 @@ public class TaskModel{
 	@CreationTimestamp
 	private LocalDateTime createdAt;
 	
+	public void setId(UUID id) {
+		this.id = id;
+	}
+	public UUID getId() {
+		return id;
+	}
+
+
+
+	
 
 	
 	
